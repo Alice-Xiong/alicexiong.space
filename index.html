@@ -63,9 +63,6 @@
                   <a class="nav-link pagescroll" href="#">Internships</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#">Blogs</a>
-               </li>
-               <li class="nav-item">
                   <a class="nav-link pagescroll" href="#contact">Resume & Contact</a>
                </li>
             </ul>
@@ -158,8 +155,12 @@
                 <div class="heading-title padding">
                 <span class=" wow fadeIn" data-wow-delay="300ms">What I can Offer</span>
                 <h2 class="darkcolor bottom20 wow fadeIn" data-wow-delay="350ms">About Me</h2>
-                <p class="heading_space wow fadeIn" data-wow-delay="400ms">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
-                <a href="#portfolio" class="button btnsecondary pagescroll wow fadeInUp" data-wow-delay="450ms">My Projects</a>
+                <p class="heading_space wow fadeIn " data-wow-delay="400ms">I am a third year Engineering Physics student who enjoys working with robots, embedded systems, and aerospace related projects. 
+                   I have been competing in VEX robotics since grade 10, and am currently involved in Penguin Robotics for robotics mentoring. 
+                   I also served as co-captain of UBC RoboMaster, a competitive autonomous robotics team founded by me and my friends.
+                   Aside from school and student teams, I also enjoy playing musical instruments, caligraphy, and journaling. </p>
+                <p></p>
+                <a href="#portfolio_top" class="button btnsecondary pagescroll wow fadeInUp" data-wow-delay="450ms">My Projects</a>
              </div>
              </div>
           </div>
@@ -174,7 +175,10 @@
                <div class="heading-title padding">
                <span class=" wow fadeIn" data-wow-delay="300ms">What I am Looking For</span>
                <h2 class="darkcolor bottom20 wow fadeIn" data-wow-delay="350ms">Research & Internships</h2>
-               <p class="heading_space wow fadeIn" data-wow-delay="400ms">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+               <p class="heading_space wow fadeIn" data-wow-delay="400ms">I aim to find the intersection between scientific theory and practical applications, and use my designing skills to advance research. 
+                  I am interested in research and instrumentation positions in the fields of mathematics, physics, and applied physics. 
+                  I have worked as an instrumentation intern at the UBC Center of Brain Health, supporting mice brain imaging experiments. 
+                  Currently, I am volunteering under the supervision of Dr. Shamil Asgarli and researching in the field of algebraic geometry.</p>
                <a href="#our-team" class="button btnsecondary pagescroll wow fadeInUp" data-wow-delay="450ms">Past Internships</a>
             </div>
             </div>
@@ -198,7 +202,7 @@
             <div class="overlay center-block whitecolor">
                <a class="plus" data-fancybox="gallery" href="images/home_robosummer.jpg"></a>
                <h4 class="top30">ENPH 480 RecycleBots Competition</h4>
-               <p>Small Portfolio Detail Here</p>
+               <p>Mobile robots capable of can pickup and recycling, built from STM32 Blue Pill and house components.</p>
             </div>
          </div>
          <div class="cbp-item">
@@ -214,7 +218,7 @@
             <div class="overlay center-block whitecolor">
                <a class="plus" data-fancybox="gallery" href="images/home_robomaster.jpg"></a>
                <h4 class="top30">UBC RoboMaster Competition Team</h4>
-               <p>Small Portfolio Detail Here</p>
+               <p>Mobile robots playing real-life League of Legends through integration of computer vision and precise launching.</p>
             </div>
          </div>
          <div class="cbp-item itemshadow">
@@ -222,22 +226,22 @@
             <div class="overlay center-block whitecolor">
                <a class="plus" data-fancybox="gallery" href="images/home_uas.jpg"></a>
                <h4 class="top30">UBC Unmanned Aircraft Systems</h4>
-               <p>Small Portfolio Detail Here</p>
+               <p>Aerial and ground systems with object avoidance, surveillance, and search and rescue applications.</p>
             </div>
          </div>
          <div class="cbp-item itemshadow">
             <img src="images/home_vex.jpg" alt="">
             <div class="overlay center-block whitecolor">
                <a class="plus" data-fancybox="gallery" href="images/home_vex.jpg"></a>
-               <h4 class="top30">VEX Robotics</h4>
-               <p>Small Portfolio Detail Here</p>
+               <h4 class="top30">VEX Robotics Team 98549</h4>
+               <p>Fast-paced real time robotics competition involving sensor control and semi-autonomous driving.</p>
             </div>
          </div>
          <div class="cbp-item">
             <div class="text_wrap_s wow fadeIn" data-wow-delay="350ms">
                <div class="heading-title text-center whitecolor">
-                  <span>Find out more on my blogs page</span>
-                  <a href="#" class="button btnsecondary">Read my blogs</a>
+                  <span>Find out more on my portfolio page</span>
+                  <a href="#" class="button btnsecondary">View My Portfolio</a>
                </div>
             </div>
          </div>
@@ -254,16 +258,19 @@
             <h2><span class="font-light darkcolor text-center">Contact</span></h2>
         </div>
         <div class="text-center padding_bottom_quarter">
-            <a href="" class="button btnsecondary text-center">View my Resume</a>
+            <div id="popup">
+               <iframe id="popupFrame" src=""></iframe>
+            </div>
+            <button class="button btnsecondary text-center" id="modalBtn">View my resume</button>
         </div>
         <div class="row ">
             <div class="col-md-12 col-sm-12 text-center">
                 <ul class="social-icons-simple bottom15 wow fadeInUp" data-wow-delay="300ms">
-                <li><a href=""><i class="fab fa-facebook fa-3x"> </i> </a> </li>
-                <li><a href=""><i class="fab fa-linkedin fa-3x"> </i> </a> </li>
-                <li><a href=""><i class="fab fa-github fa-3x"> </i> </a> </li>
-                <li><a href=""><i class="fab fa-youtube fa-3x"> </i> </a> </li>
-                <li><a href=""><i class="fa fa-envelope fa-3x"> </i> </a> </li>
+                <li><a href="https://www.facebook.com/profile.php?id=100005640556969" target="_blank"><i class="fab fa-facebook fa-3x"> </i> </a> </li>
+                <li><a href="https://ca.linkedin.com/in/alice-xiong-44aa4b195" target="_blank"><i class="fab fa-linkedin fa-3x"> </i> </a> </li>
+                <li><a href="https://github.com/Alice-Xiong" target="_blank"><i class="fab fa-github fa-3x"> </i> </a> </li>
+                <li><a href="https://www.youtube.com/channel/UCC2x6yO45MabhNl9opKFwGg" target="_blank"><i class="fab fa-youtube fa-3x"> </i> </a> </li>
+                <li><a href="mailto: alice_xiong@outlook.com" target="_blank"><i class="fa fa-envelope fa-3x"> </i> </a> </li>
                 </ul>
             </div>
         </div>
@@ -328,5 +335,6 @@
 <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
 
 <script src="js/functions.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

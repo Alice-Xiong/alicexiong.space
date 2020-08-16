@@ -4184,3 +4184,16 @@ html{
 .image-border img{
    border: 20px solid #fff;
 }
+
+/* Resume pop up*/
+#popup {
+   width: 960px;
+   height: 720px;
+   margin: 0 auto;
+   box-shadow: 1px 1px 1px 1px black;
+   display: none;
+ }
+ #popup iframe {
+   width: 100%;
+   height: 100%
+ }
