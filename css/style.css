@@ -1770,7 +1770,7 @@ i::before,i::after{
     /*Page Headers */
 /*-------------------------------*/
 .page-header {
-   background: url(../images/page-header.jpg) no-repeat;
+   background: url(../images/black_bg.png) no-repeat;
    background-position: center center;
    -webkit-background-size: cover;
    background-size: cover;
@@ -2284,14 +2284,14 @@ i::before,i::after{
 /*Overlays*/
 .overlay {
    position: absolute;
-   left: 20px; top: 20px;
-   right: 20px; bottom: 20px;
+   left: 50px; top: 50px;
+   right: 50px; bottom: 50px;
    opacity: 0;
    visibility: hidden;
    z-index: 1;
    -webkit-border-radius: 50%;
    border-radius: 50%;
-   background: rgba(30, 30, 30, 0.5);
+   background: rgba(30, 30, 30, 0.7);
    -webkit-transition: all .5s ease-in .1s;
    -o-transition: all .5s ease-in .1s;
    transition: all .5s ease-in .1s;
