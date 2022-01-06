@@ -1799,6 +1799,15 @@ i::before,i::after{
 	position: absolute;
 }
 
+.page-header-stories-rm {
+   background: url(../images/stories_rm/rm_infantry1.jpg) no-repeat;
+   background-position: center center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+}
+
 /*-------------------------------*/
     /*Page Headers */
 /*-------------------------------*/
@@ -4237,4 +4246,15 @@ html{
    text-decoration: none;
    cursor: pointer;
  }
+
+ .bg-carousel-label{
+    background-image: radial-gradient(#000000, transparent);
+    width: 100%;
+    left: 0%;
+ }
+
+ .project-stories-text{
+   width: 85%;
+   left: 10%;
+}
 
