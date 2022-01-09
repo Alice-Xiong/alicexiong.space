@@ -1808,6 +1808,14 @@ i::before,i::after{
    width: 100%;
 }
 
+.page-header-stories-rs {
+   background: url(../images/stories_robotsummer/bg.png) no-repeat;
+   background-position: center center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+}
 /*-------------------------------*/
     /*Page Headers */
 /*-------------------------------*/
