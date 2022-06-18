@@ -1,6 +1,6 @@
 # Site
 name: "Alice Xiong"
-baseurl: /alicexiong.space
+baseurl: 
 email: alice_xiong@gmail.com
 domain: https://alice-xiong.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://alice-xiong.github.io  # the base hostname and protocol for your site, e.g. http://example.com
