@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% seo %}
+    <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+    <!-- <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/plugins.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome-free-5.14.0-web/css/all.css">
+    <link href="{{ site.baseurl }}/images/icon.png" rel="icon">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+    
+<!-- header -->
+<header class="site-header">
+    <nav class="navbar navbar-expand-lg transparent-bg static-nav">
+        <div class="container">
+            <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+                <h3 class="text-capitalize font-xlight whitecolor"> Alice Xiong </h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#xenav">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="xenav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="{{ site.baseurl }}/index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/blog/index.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link pagescroll" href="#contact">CV & Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+</header>
+<!-- header -->   
+
+
+{{ content }}
+
+
+<!-- Begin Footer
+================================================== -->
+<section id="contact" class="padding_half">
+    <div class="container">
+        <div class="text-center padding_bottom_quarter">
+            <h2><span class="font-light darkcolor text-center">CV & Contact</span></h2>
+        </div>
+        <!--Button for resume-->
+        <div class="text-center padding_bottom_quarter">
+            <button id="myBtn" class="button btnsecondary text-center bg-custom-text">View my CV</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <!--Need a preview link!-->
+                <iframe src="https://drive.google.com/file/d/11zaalcuYzhpvOkz4ZnyClF-a8NAVNRj6/preview" width="640" height="480"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-12 col-sm-12 text-center">
+                <ul class="social-icons-simple bottom15 wow fadeInUp" data-wow-delay="300ms">
+                <li><a href="https://www.facebook.com/profile.php?id=100005640556969" target="_blank"><i class="fab fa-facebook fa-3x"> </i> </a> </li>
+                <li><a href="https://ca.linkedin.com/in/alice-xiong-44aa4b195" target="_blank"><i class="fab fa-linkedin fa-3x"> </i> </a> </li>
+                <li><a href="https://github.com/Alice-Xiong" target="_blank"><i class="fab fa-github fa-3x"> </i> </a> </li>
+                <li><a href="https://www.youtube.com/channel/UCC2x6yO45MabhNl9opKFwGg" target="_blank"><i class="fab fa-youtube fa-3x"> </i> </a> </li>
+                <li><a href="mailto: alice_xiong@outlook.com" target="_blank"><i class="fa fa-envelope fa-3x"> </i> </a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+            </div>
+            <div class="col-md-6 col-sm-12 text-center text-lg-right">    
+                Memoirs Jekyll Theme
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Footer
+================================================== -->
+
+
+
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+================================================== -->
+
+<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{{ site.baseurl }}/assets/js/jquery-3.1.1.min.js"></script>
+
+<!--Bootstrap Core-->
+<script src="{{ site.baseurl }}/assets/js/popper.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+
+<!--to view items on reach-->
+<script src="{{ site.baseurl }}/assets/js/jquery.appear.js"></script>
+
+<!--Equal-Heights-->
+<script src="{{ site.baseurl }}/assets/js/jquery.matchHeight-min.js"></script>
+
+<!--Owl Slider-->
+<script src="{{ site.baseurl }}/assets/js/owl.carousel.min.js"></script>
+
+<!--number counters-->
+<script src="{{ site.baseurl }}/assets/js/jquery-countTo.js"></script>
+
+<!--Parallax Background-->
+<script src="{{ site.baseurl }}/assets/js/parallaxie.js"></script>
+
+<!--Cubefolio Gallery-->
+<script src="{{ site.baseurl }}/assets/js/jquery.cubeportfolio.min.js"></script>
+
+<!--FancyBox popup-->
+<script src="{{ site.baseurl }}/assets/js/jquery.fancybox.min.js"></script>          
+
+<!-- Video Background-->
+<script src="{{ site.baseurl }}/assets/js/jquery.background-video.js"></script>
+
+<!--TypeWriter-->
+<script src="{{ site.baseurl }}/assets/js/typewriter.js"></script> 
+    
+<!--Particles-->
+<script src="{{ site.baseurl }}/assets/js/particles.min.js"></script>            
+        
+<!--WOw animations-->
+<script src="{{ site.baseurl }}/assets/js/wow.min.js"></script>
+            
+<!--Revolution SLider-->
+<script src="{{ site.baseurl }}/assets/js/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/revolution/extensions/revolution.extension.video.min.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/functions.js"></script>
+<script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+
+
+
+
+</body>
+</html>

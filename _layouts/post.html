@@ -1,0 +1,58 @@
+---
+layout: default
+post_class: post-template
+---
+
+<!--page Header-->
+<section class="page-header parallaxie padding_top center-block" id = "home">
+    <div class="container">
+       <div class="row">
+          <div class="col-sm-12">
+             <div class="heading-title text-center bottom30">
+                <h1 class="posttitle whitecolor">{{ page.title }}</h1>
+             </div>
+          </div>
+       </div>
+
+       {% assign author = site.authors[page.author] %}
+       {% if page.author %}
+       <div class="d-flex align-items-center mt-4 entry-header padding_bottom_quarter">
+           <div>
+               {% if author.avatar %}
+               <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+               {% else %}
+               <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+               {% endif %}
+           </div>            
+           <div class="whitecolor">
+                Written by {{ author.display_name }} on 
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+           </div>            
+       </div>
+       {% endif %}
+    </div>
+</section>
+<!--page Header ends-->
+
+  
+<!-- Featured Image and Intro Text-->
+<section class="container top30">
+    <div class="row bottom30">
+        <div class="col-lg-6">
+            <div class="image img-container center-block equalheight">
+                <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="split-box text-center center-block container-padding equalheight">
+                {{page.summary}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+{{content}}
+
+<!-- Author Box if enabled from _config.yml -->
+{% include author-box.html %}

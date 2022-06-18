@@ -1,0 +1,40 @@
+---
+layout: default
+title: Alice Xiong | Blog
+---
+<!--page Header-->
+<section class="page-header parallaxie padding_top center-block" id = "home">
+  <div class="container">
+     <div class="row">
+        <div class="col-sm-12">
+           <div class="heading-title text-center bottom30">
+              <h2 class="whitecolor font-light">Blog</h2>
+              <h4 class="whitecolor font-xlight">My journey, thoughts, and some results among robotics, physics, and life.</h4>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!--page Header ends-->
+
+<section class="bg-custom">
+  <div class="site-content {% if page.url == '/' %} firstpage {% endif %}"></div>
+
+  <div class="container">
+    <div class="main-content">
+      <!-- Posts Index
+      ================================================== -->
+      <div class="blog-grid-container">
+        {% for post in paginator.posts %}
+            {% include postbox.html %}
+        {% endfor %}
+      </div>
+
+      <!-- Pagination
+      ================================================== -->
+      <div class="bottompagination padding_bottom_quarter">
+            {% include pagination.html %}
+      </div>
+    </div>
+  </div>
+</section>
