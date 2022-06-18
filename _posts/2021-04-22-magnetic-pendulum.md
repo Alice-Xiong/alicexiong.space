@@ -9,7 +9,6 @@ approximation and Lagrangian mechanics. I also use python to simulate and graph 
 2D projections of the pendulum's trajectory."
 ---
 
- <!-- {% pdf "20210422-magnetic-pendulum.pdf" %} -->
 <embed src="https://drive.google.com/file/d/1erDD7bB7dsTpetfnEinNmOttDd9lzTpq/preview" type="application/pdf" width="100%" height ="800"/>
 
 
