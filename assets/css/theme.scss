@@ -5,7 +5,7 @@
 $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
-$primary: $teal;
+$primary: $black;
 $dark:    $black;
 $enable-rounded: false;
 
@@ -248,11 +248,6 @@ img, img:hover {
     }
     .card {
         border:0;
-        &:hover {           
-           .card-title a { 
-                background-size: 100% 100%;
-            }
-        }
     }
     .card-title {
         font-weight:700;
