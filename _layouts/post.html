@@ -39,7 +39,7 @@ layout: default
     <div class="row bottom30">
         <div class="col-lg-6">
             <div class="image img-container center-block equalheight">
-                <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
             </div>
         </div>
         <div class="col-lg-6">

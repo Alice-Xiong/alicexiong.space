@@ -4,7 +4,7 @@
 <div class="authorbox mb-5 mt-5 pt-4 pb-4">   
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
-            <img  class="author-thumb" src="{{ site.url }}{{site.baseurl}}{{ author.avatar }}" alt="{{ author.display_name }}">
+            <img  class="author-thumb" src="{{ author.avatar | relative_url}}" alt="{{ author.display_name }}">
             <p class="mt-4 mb-0 small text-center">
                 <a class="d-inline-block mx-1 text-dark" href="{{ author.web }}"><i class="fa fa-link"></i></a> 
                 <a class="d-inline-block mx-1 text-dark" href="{{ author.github }}"><i class="fab fa-github"></i></a>
