@@ -3,7 +3,7 @@ layout: post
 title:  "Alice Through the Looking Glass -- Parity Symmetry Experiment"
 author: Alice
 categories: [ Physics ]
-image: images/Blog/2020-07-12-looking-glass.png
+image: images/blog/2020-07-12-looking-glass.png
 summary: "Slides from a TedX style talk given on the experiment that broke parity symmetry, and 
 how we can tell the looking glass universe from our own."
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "OpAmp Design and Simulation"
 author: Alice
 categories: [ Electronics ]
-image: images/Blog/2021-12-27-opamp-design.png
+image: images/blog/2021-12-27-opamp-design.png
 summary: "Schematics and LTSpice simulation of a differential operational amplifier built from 
 MOSFETs with some optimization on gain, bandwidth, and supply-independent biasing circuit."
 ---
