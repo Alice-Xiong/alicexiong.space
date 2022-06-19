@@ -5,13 +5,12 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% seo %}
-    <link href="{{ site.url }}{{ site.baseurl }}assets/css/prism.css" rel="stylesheet">
-    <link href="{{ site.url }}{{ site.baseurl }}assets/css/theme.css" rel="stylesheet">
-    <!-- <script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery.min.js"></script> -->
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}assets/css/plugins.css">
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}assets/css/style.css">
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}assets/fontawesome-free-5.14.0-web/css/all.css">
-    <link href="{{ site.url }}{{ site.baseurl }}images/icon.png" rel="icon">
+    <link href="{{ '/assets/css/prism.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/theme.css' | relative_url }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/plugins.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/fontawesome-free-5.14.0-web/css/all.css' | relative_url }}">
+    <link href="{{ 'images/icon.png' | relative_url }}" rel="icon">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -20,7 +19,7 @@
 <header class="site-header">
     <nav class="navbar navbar-expand-lg transparent-bg static-nav">
         <div class="container">
-            <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}index.html">
+            <a class="navbar-brand" href="{{ 'index.html' | relative-url }}">
                 <h3 class="text-capitalize font-xlight whitecolor"> Alice Xiong </h3>
             </a>
             <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#xenav">
@@ -31,13 +30,13 @@
             <div class="collapse navbar-collapse" id="xenav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}index.html#home">Home</a>
+                    <a class="nav-link" href="{{ 'index.html#home' | relative_url }}">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}gallery.html">Gallery</a>
+                    <a class="nav-link" href="{{ 'gallery.html' | relative_url }}">Gallery</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}blog/index.html">Blog</a>
+                    <a class="nav-link" href="{{ 'blog/index.html' | relative_url }}">Blog</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link pagescroll" href="#contact">CV & Contact</a>
@@ -101,68 +100,68 @@
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/prism.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/theme.js"></script>
+<script src="{{ '/assets/js/prism.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery-3.1.1.min.js"></script>
+<script src="{{ '/assets/js/jquery-3.1.1.min.js' | relative_url }}"></script>
 
 <!--Bootstrap Core-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/popper.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/bootstrap.min.js"></script>
+<script src="{{ '/assets/js/popper.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
 
 <!--to view items on reach-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery.appear.js"></script>
+<script src="{{ '/assets/js/jquery.appear.js' | relative_url }}"></script>
 
 <!--Equal-Heights-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery.matchHeight-min.js"></script>
+<script src="{{ '/assets/js/jquery.matchHeight-min.js' | relative_url }}"></script>
 
 <!--Owl Slider-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/owl.carousel.min.js"></script>
+<script src="{{ '/assets/js/owl.carousel.min.js' | relative_url }}"></script>
 
 <!--number counters-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery-countTo.js"></script>
+<script src="{{ '/assets/js/jquery-countTo.js' | relative_url }}"></script>
 
 <!--Parallax Background-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/parallaxie.js"></script>
+<script src="{{ '/assets/js/parallaxie.js' | relative_url }}"></script>
 
 <!--Cubefolio Gallery-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery.cubeportfolio.min.js"></script>
+<script src="{{ '/assets/js/jquery.cubeportfolio.min.js' | relative_url }}"></script>
 
 <!--FancyBox popup-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery.fancybox.min.js"></script>          
+<script src="{{ '/assets/js/jquery.fancybox.min.js' | relative_url }}"></script>          
 
 <!-- Video Background-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/jquery.background-video.js"></script>
+<script src="{{ '/assets/js/jquery.background-video.js' | relative_url }}"></script>
 
 <!--TypeWriter-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/typewriter.js"></script> 
+<script src="{{ '/assets/js/typewriter.js' | relative_url }}"></script> 
     
 <!--Particles-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/particles.min.js"></script>            
+<script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>            
         
 <!--WOw animations-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/wow.min.js"></script>
+<script src="{{ '/assets/js/wow.min.js' | relative_url }}"></script>
             
 <!--Revolution SLider-->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/jquery.themepunch.tools.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/jquery.themepunch.revolution.min.js"></script>
+<script src="{{ '/assets/js/revolution/jquery.themepunch.tools.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/jquery.themepunch.revolution.min.js' | relative_url }}"></script>
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.actions.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/revolution/extensions/revolution.extension.video.min.js"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.actions.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.carousel.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.kenburn.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.layeranimation.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.navigation.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.parallax.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.slideanims.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/revolution/extensions/revolution.extension.video.min.js' | relative_url }}"></script>
 
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/functions.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}assets/js/custom.js"></script>
+<script src="{{ '/assets/js/functions.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
 
-
-
+<!-- Delete this one to remove camera icon and get overlays back -->
+<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
 
 </body>
 </html>
