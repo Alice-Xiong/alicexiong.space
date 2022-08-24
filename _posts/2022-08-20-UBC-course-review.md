@@ -84,7 +84,7 @@ If a course is not listed, I probably don't have a strong opinion of it, or I ju
 * **Topics Covered:** robotics system prototyping and engineering, CAD and fabrication, sensors and microcontrollers, PID control, hardware and software filters, H bridge, noise considerations, time management, emotional intelligence
 * **Thoughts:** Truly a good project course, for those who want to invest time. Throughout the course, many dimensions related to robotics and prototyping are explored and everyone will learn a lot regardless of starting point. The instructors are knowledgeable and caring, and it's a great course to practice asking questions and explaining concepts. This course is often hyped up as the best project course, I don't think that's the case for everyone -- it is extremely important to evaluate one's goals for the course: to win the competition, to learn skills for future employment, or to balance time commitment with other priorities. Usually teams that have a similar level of time commitment and goals will have a great time in the course...
 * **Difficulty:** 3/5 - Hard to evaluate, but I'd say the course is not difficult, more so it requires a lot of time (like 12 hours in the lab everyday) and a good idea of tools and debugging procedures to speed things up.
-* **Overall:** 5/5 - Very subjective, I like robots。
+* **Overall:** 5/5 - Very subjective, I like robots.
 
 
 ## 5. Miscellaneous <a id="sec-misc"></a>

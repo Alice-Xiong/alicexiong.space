@@ -38,7 +38,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    color: #a5a5a5;
+    color: #515151;
     overflow-x: hidden !important;
     overflow-y: auto !important;
 }
@@ -63,7 +63,7 @@ input:focus{
     outline: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,.h2-footer {
     margin: 0;
 }
 h1 {
@@ -71,6 +71,9 @@ h1 {
 }
 h2 {
     font-size: 3.5rem;
+}
+.h2-footer {
+   font-size: 3.5rem;
 }
 h3 {
     font-size: 1.875rem;
